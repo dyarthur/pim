@@ -1,0 +1,37 @@
+# coding: utf-8
+"""System wide constants."""
+
+# Schedule type and choices
+SCHEDULE_TYPE_HOURLY = 0
+SCHEDULE_TYPE_DAILY = 1
+SCHEDULE_TYPE_WEEKLY = 2
+SCHEDULE_TYPE_MONTHLY = 3
+SCHEDULE_TYPE_CHOICES = (
+    (SCHEDULE_TYPE_HOURLY, 'Hourly'),
+    (SCHEDULE_TYPE_DAILY, 'Daily'),
+    (SCHEDULE_TYPE_WEEKLY, 'Weekly'),
+    (SCHEDULE_TYPE_MONTHLY, 'Monthly'),
+)
+
+# User management
+LOGIN_MAX_RETRY_TIMES = 3
+
+# Restful API error code
+REST_ERR_LOGIN_FAIL = 1
+REST_ERR_CHG_PWD = 2
+REST_ERR_OPS_VALID = 3
+REST_ERR_FIELD_MISS = 4
+REST_ERR_TOO_LARGE = 5
+REST_ERR_FIELD_ERR = 6
+REST_ERR_USER_SAME = 7
+REST_ERR_USER_IN_FROZEN = 8
+
+# user type and choice define
+USER_TYPE_GUEST = 0
+USER_TYPE_NORMAL = 1
+USER_TYPE_ADMIN = 2
+USER_TYPE_CHOICE = (
+    (USER_TYPE_GUEST, 'guest user'),
+    (USER_TYPE_NORMAL, 'normal user'),
+    (USER_TYPE_ADMIN, 'admin user'),
+)
