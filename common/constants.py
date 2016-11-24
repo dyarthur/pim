@@ -31,7 +31,7 @@ USER_TYPE_GUEST = 0
 USER_TYPE_NORMAL = 1
 USER_TYPE_ADMIN = 2
 USER_TYPE_CHOICE = (
-    (USER_TYPE_GUEST, 'guest user'),
-    (USER_TYPE_NORMAL, 'normal user'),
-    (USER_TYPE_ADMIN, 'admin user'),
+    (USER_TYPE_GUEST, 'Guest user'),
+    (USER_TYPE_NORMAL, 'Normal user'),
+    (USER_TYPE_ADMIN, 'Admin user'),
 )
